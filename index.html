@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman!</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Jumbotron with Title -->
+    <div class="jumbotron">
+      <h1 class="text-center"><strong>Which Power Ranger is this?</strong></h1>
+      <h4 class="text-center">"It's probably not tommy"</h4>
+      <hr>
+      <div class="text-center">
+        <button class="btn btn-warning btn-s theme-button"><span class="glyphicon glyphicon-music"></span> Play!</button>
+        <button class="btn btn-default btn-s pause-button"><span class="glyphicon glyphicon-pause"></span> Pause</button>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-lg-6-offset-3">
+        <div class="panel panel-default">
+          <div class="panel-heading text-center">
+            <h3 class="panel-title">Pick a letter!</h3>
+          </div>
+          <div class="panel-body">
+            <div class="text-left">
+            	<h4>Lives Remaining</h2>
+            </div>
+            <div class="text-center">
+            	<h3>Current Word</h3>
+            	<h4 id="guess"></h4>
+            </div>
+          </div>
+        </div>
+
+
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

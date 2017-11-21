@@ -1,0 +1,32 @@
+body {
+	background:url("../images/background.jpg");
+	height: 200vh;
+	background-position: center; 
+}
+
+.theme-button {
+	background-color: blue;
+}
+
+.theme-button:hover {
+	background-color: green;
+}
+
+.pause-button {
+	background-color: red;
+}
+
+.pause-button:hover {
+	background-color: green;
+}
+
+.jumbotron {
+	background-color: black;
+	opacity: .95;
+}
+
+.jumbotron:hover {
+	background-color: black;
+	opacity: .9;
+}
+
